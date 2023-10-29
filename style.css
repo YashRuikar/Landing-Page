@@ -27,7 +27,7 @@ html, body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 5vw;
+    padding: 0 4vw;
     border-bottom: 2px solid  #dadada;
 }
 
@@ -38,14 +38,24 @@ html, body{
 }
 
 .nav h2{
-    font-size: 2.2vw;
+    font-size: 1.5vw;
     font-weight: 1500;
 }
 
 .nav h4{
-    font-size: 1.3vw;
+    font-size: 1.1vw;
     font-weight: 1500;
 }
+
+.nav button{
+    font-size: 1.1vw;
+    padding: 0.7vw 1.4vw;
+    background-color: #5AE4A8;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+} 
 
 .nav i{
     font-size: 1.6vw;
@@ -109,20 +119,51 @@ html, body{
 
 @media (max-width:600px){
     .nav{
-        background-color: #5AE4A8;
-        color: white;
         padding: 0 6vw;
         height: 60px;
     }
     .nav h2{
-        font-size: 5vw;
+        font-size: 5.1vw;
     }
     .nav h4{
         font-size: 4vw;
         display: none;
     }
+    .nav button{
+        display: none;
+    }
     .nav i{
         display: block;
-        font-size: 5vw;
+        font-size: 4.5vw;
     }
-}
+    .content{
+        height: calc(100% - 60px);
+        flex-direction: column;
+    }
+    .contentLeft{
+        width: 100%;
+        height: 45%;
+        padding: 4vw 6vw;
+        margin-top: 3vw;
+    }
+    .contentRight{
+        width: 100%;
+        height: 55%;
+    }
+    .contentLeft h1{
+        font-size: 10vw;
+        line-height: 11vw;
+    }
+    .contentLeft p{
+        font-size: 3vw;
+        width: 90%;
+        margin-top: 5vw;
+        margin-bottom: 6vw;
+    }
+    .contentLeft button{
+        font-size: 3.5vw;
+        padding: 3vw 6vw;
+        border-radius: 3px;
+        font-weight: 600;
+    }
+}  
