@@ -1,15 +1,16 @@
+@font-face {
+    font-family:"Gilroy-Regular";
+    src: url(./Gilroy-Regular.ttf) format("truetype");
+  }
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Gilroy;
-
+    font-family: gilroy;
 }
 
-@font-face {
-    font-family:"Gilroy-Regular";
-    src: url('./Gilroy-Regular.ttf') format("truetype");
-  }
+
 
 html, body{
     height: 100%;
