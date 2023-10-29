@@ -1,16 +1,14 @@
 @font-face {
-    font-family:"Gilroy-Regular";
-    src: url(./Gilroy-Regular.ttf) format("truetype");
+    font-family:"Gilroy-Medium";
+    src: url(./Gilroy-Medium.ttf) format("truetype");
   }
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: gilroy;
+    font-family: "Gilroy-Medium";
 }
-
-
 
 html, body{
     height: 100%;
@@ -41,11 +39,12 @@ html, body{
 
 .nav h2{
     font-size: 2.2vw;
-    font-weight: 700;
+    font-weight: 1500;
 }
 
 .nav h4{
-    font-size: 1.2vw;
+    font-size: 1.3vw;
+    font-weight: 1500;
 }
 
 .nav i{
